@@ -1,0 +1,50 @@
+<dotnetnuke type="Package" version="5.0">
+  <packages>
+    <package name="Ragnarok" type="Skin" version="1.0.0">
+      <friendlyName>Ragnarok</friendlyName>
+      <description />
+      <iconFile />
+      <owner>
+        <name>Ragnarok LLC</name>
+        <organization>Ragnarok LLC</organization>
+        <url />
+        <email />
+      </owner>
+      <license />
+      <releaseNotes />
+      <components>
+        <component type="Skin">
+          <skinFiles>
+            <skinName>Ragnarok</skinName>
+            <basePath>Portals\_default\Skins\Ragnarok</basePath>
+            <skinFile>
+              <path>images</path>
+              <name>bg.png</name>
+            </skinFile>
+            <skinFile>
+              <path>images</path>
+              <name>border-left.png</name>
+            </skinFile>
+            <skinFile>
+              <path>images</path>
+              <name>border-right.png</name>
+            </skinFile>
+            <skinFile>
+              <path>images</path>
+              <name>logo.png</name>
+            </skinFile>
+            <skinFile>
+              <name>Home.ascx</name>
+            </skinFile>
+            <skinFile>
+              <name>Home.doctype.xml</name>
+            </skinFile>
+            <skinFile>
+              <name>skin.css</name>
+            </skinFile>
+          </skinFiles>
+        </component>
+      </components>
+    </package>
+  </packages>
+</dotnetnuke>
