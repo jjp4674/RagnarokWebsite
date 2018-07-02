@@ -21,7 +21,7 @@
     <meta name="REVISIT-AFTER" content="1 DAYS" />
     <meta name="RATING" content="GENERAL" />
     <meta http-equiv="PAGE-ENTER" content="RevealTrans(Duration=0,Transition=1)" />
-    <meta id="meta" name="viewport" content="width=device-width; initial-scale=1.0" />
+    <meta id="meta" name="viewport" content="width=device-width, initial-scale=1.0" />
     <style type="text/css" id="StylePlaceholder" runat="server"></style>
     <asp:PlaceHolder runat="server" ID="ClientDependencyHeadCss"></asp:PlaceHolder>
     <asp:PlaceHolder runat="server" ID="ClientDependencyHeadJs"></asp:PlaceHolder>

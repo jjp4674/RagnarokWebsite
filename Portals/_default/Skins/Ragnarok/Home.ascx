@@ -4,13 +4,17 @@
 <%@ Register TagPrefix="dnn" TagName="COPYRIGHT" Src="~/Admin/Skins/Copyright.ascx" %>
 <%@ Register TagPrefix="dnn" Namespace="DotNetNuke.Web.DDRMenu.TemplateEngine" Assembly="DotNetNuke.Web.DDRMenu" %>
 <%@ Register TagPrefix="dnn" TagName="MENU" src="~/DesktopModules/DDRMenu/Menu.ascx" %>
-<%@ Register TagPrefix="dnn" TagName="STYLES" Src="~/Admin/Skins/Styles.ascx" %>
 <%@ Register TagPrefix="dnn" Namespace="DotNetNuke.Web.Client.ClientResourceManagement" Assembly="DotNetNuke.Web.Client" %>
 <%@ Register TagPrefix="dnn" TagName="JQUERY" Src="~/Admin/Skins/jQuery.ascx" %>
 
+
 <dnn:JQUERY runat="server" id="dnnjQuery" jQueryHoverIntent="true" /> 
+<dnn:DnnJsInclude runat="server" FilePath="js/bootstrap.min.js" PathNameAlias="SkinPath" />
 <dnn:DnnJsInclude runat="server" FilePath="js/rag.js" PathNameAlias="SkinPath" />
-<dnn:DnnCssInclude runat="server" FilePath="css/rag.css" PathNameAlias="SkinPath" />
+<dnn:DnnJsInclude runat="server" FilePath="js/tabs.js" PathNameAlias="SkinPath" />
+<dnn:DnnCssInclude runat="server" FilePath="css/bootstrap.css" PathNameAlias="SkinPath" />
+<dnn:DnnCssInclude runat="server" FilePath="css/bootstrapStyle.css" PathNameAlias="SkinPath" />
+<dnn:DnnCssInclude runat="server" FilePath="css/bootstrapRag.css" PathNameAlias="SkinPath" />
 
 <div id="header">
     <div id="headerContainer">
@@ -38,18 +42,9 @@
             </div>
         </div>
         <div id="content">
-            <div id="contentPane" class="contentPane" runat="server"></div>
-            <div id="callOuts">
-                <div class="callout callout1">
-                    <a href="/Registration.aspx"><img src="/Portals/_default/Skins/Ragnarok/images/callouts/button1.png" alt="Pre-Register Now" /></a>
-                </div>
-                <div class="space"></div>
-                <div class="callout callout2">
-                    <a href="/Schedule.aspx"><img src="/Portals/_default/Skins/Ragnarok/images/callouts/button2.png" alt="See the Event Schedule" /></a>
-                </div>
-                <div class="space"></div>
-                <div class="callout callout3">
-                    <a href="/Information/MerchantList.aspx"><img src="/Portals/_default/Skins/Ragnarok/images/callouts/button3.png" alt="View the Vendors List" /></a>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div id="contentPane" class="contentPane" runat="server"></div>
                 </div>
             </div>
         </div>

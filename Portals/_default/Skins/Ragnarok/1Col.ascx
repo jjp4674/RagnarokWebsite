@@ -4,14 +4,17 @@
 <%@ Register TagPrefix="dnn" TagName="COPYRIGHT" Src="~/Admin/Skins/Copyright.ascx" %>
 <%@ Register TagPrefix="dnn" Namespace="DotNetNuke.Web.DDRMenu.TemplateEngine" Assembly="DotNetNuke.Web.DDRMenu" %>
 <%@ Register TagPrefix="dnn" TagName="MENU" src="~/DesktopModules/DDRMenu/Menu.ascx" %>
-<%@ Register TagPrefix="dnn" TagName="STYLES" Src="~/Admin/Skins/Styles.ascx" %>
 <%@ Register TagPrefix="dnn" Namespace="DotNetNuke.Web.Client.ClientResourceManagement" Assembly="DotNetNuke.Web.Client" %>
 <%@ Register TagPrefix="dnn" TagName="JQUERY" Src="~/Admin/Skins/jQuery.ascx" %>
 
+
 <dnn:JQUERY runat="server" id="dnnjQuery" jQueryHoverIntent="true" /> 
+<dnn:DnnJsInclude runat="server" FilePath="js/bootstrap.min.js" PathNameAlias="SkinPath" />
 <dnn:DnnJsInclude runat="server" FilePath="js/rag.js" PathNameAlias="SkinPath" />
 <dnn:DnnJsInclude runat="server" FilePath="js/tabs.js" PathNameAlias="SkinPath" />
-<dnn:DnnCssInclude runat="server" FilePath="css/rag.css" PathNameAlias="SkinPath" />
+<dnn:DnnCssInclude runat="server" FilePath="css/bootstrap.css" PathNameAlias="SkinPath" />
+<dnn:DnnCssInclude runat="server" FilePath="css/bootstrapStyle.css" PathNameAlias="SkinPath" />
+<dnn:DnnCssInclude runat="server" FilePath="css/bootstrapRag.css" PathNameAlias="SkinPath" />
 
 <div id="header">
     <div id="headerContainer">
@@ -39,7 +42,11 @@
             </div>
         </div>
         <div id="content">
-            <div id="contentPane" class="contentPane" runat="server"></div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div id="contentPane" class="contentPane" runat="server"></div>
+                </div>
+            </div>
         </div>
         <div id="footer">
             <div id="copyright">

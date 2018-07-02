@@ -1,0 +1,424 @@
+﻿@import 'https://fonts.googleapis.com/css?family=Arvo';
+
+/******************************************* GENERAL *******************************************/
+
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body form {
+    height: 100%;
+}
+
+#header
+{
+    width: 100%;
+    height: 46px;
+    background: #5C755E;
+}
+
+
+
+/* GENERAL STYLES */
+
+p {
+    font-size: 13px;
+}
+
+a, a:visited {
+    color: #9C9F84;
+}
+
+h1 {
+    font-family: 'Arvo', serif;
+    font-weight: bold;
+    line-height: 38px;
+    font-size: 22px;
+    color: #5C755E;
+    letter-spacing: -0.03em;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-family: 'Arvo', serif;
+    font-weight: bold;
+    line-height: 18px;
+    font-size: 16px;
+    color: #A97D5D;
+    letter-spacing: -0.03em;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+ol li {
+    font-size: 13px;
+}
+
+ul li {
+    font-size: 13px;
+}
+
+
+/******************************************* DESKTOP *******************************************/
+
+@media screen and (min-width: 1060px) {
+
+    #Body {
+        background: url(../images/bg.png) repeat #F7DCB4;
+        color: #000000;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        font-family: 'Arvo', serif;
+        font-size: 13px;
+    }
+
+    #headerContainer {
+        position: relative;
+        margin: 0 auto;
+        width: 1000px;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 46px;
+    }
+
+    #logo {
+        position: absolute;
+        left: 20px;
+        z-index: 99;
+        width: 220px;
+    }
+
+    #borderContainer {
+        display: table;
+        position: relative;
+        margin: 0 auto;
+        width: 1060px;
+        min-height: calc(100% - 46px);
+    }
+
+    #container {
+        display: table-cell;
+        position: relative;
+        margin: 0 auto;
+        width: 1000px;
+        background: #FFFFFF;
+        min-height: calc(100% - 46px);
+    }
+
+    #topSpace {
+        height: 76px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #date {
+        padding-left: 245px;
+        padding-top: 17px;
+    }
+
+    #dateText
+    {
+        display: none;
+    }
+
+    #content {
+        position: relative;
+        background: #FFFFFF;
+        padding-bottom: 28px;
+        padding-left: 20px;
+        padding-right: 20px;
+        min-height: calc(100% - 28px);
+    }
+
+    .image
+    {
+        width: 500px; 
+        height: 334px; 
+        float: right; 
+        margin-bottom: 4px; 
+        margin-left: 10px;
+        border: 3px solid #5c755e; 
+    }
+
+    #callOuts {
+        display: table;
+        width: 960px;
+        height: 190px;
+        margin-bottom: 20px;
+    }
+
+    .space {
+        display: table-cell;
+    }
+
+    .callout {
+        position: relative;
+        display: table-cell;
+        width: 318px;
+        height: 190px;
+        border: 3px solid #5C755E;
+    }
+
+        .callout a {
+            position: absolute;
+            bottom: 0px;
+            padding-top: 156px;
+        }
+
+    .callout1 {
+        background-image: url(../images/callouts/callout1.png);
+    }
+
+    .callout2 {
+        background-image: url(../images/callouts/callout2.png);
+    }
+
+    .callout3 {
+        background-image: url(../images/callouts/callout3.png);
+    }
+
+    #footer {
+        position: absolute;
+        height: 28px;
+        width: 1000px;
+        padding-left: 20px;
+        padding-right: 20px;
+        bottom: 0;
+        background: #9C9F84;
+    }
+
+    #copyright {
+        float: left;
+        margin-top: 5px;
+    }
+
+        #copyright span {
+            font-size: 12px;
+            color: #FFFFFF;
+        }
+
+    #login {
+        float: right;
+        margin-top: 5px;
+    }
+
+        #login a {
+            font-size: 12px;
+            color: #FFFFFF;
+            text-decoration: underline;
+        }
+
+            #login a:hover {
+                color: #F7DCB4;
+            }
+
+    #leftBorder {
+        display: table-cell;
+        background-image: url(../images/border-left.png);
+        background-repeat: repeat-y;
+    }
+
+    #rightBorder {
+        display: table-cell;
+        background-image: url(../images/border-right.png);
+        background-repeat: repeat-y;
+    }
+}
+
+/******************************************* MOBILE *******************************************/
+
+@media screen and (max-width: 1060px) {
+
+    #Body
+    {
+        background: #F7DCB4;
+        color: #000000;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        font-family: 'Arvo', serif;
+        font-size: 13px;
+    }
+
+    #headerContainer
+    {
+        position: relative;
+        margin: 0 auto;
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        height: 46px;
+    }
+
+    #logo
+    {
+        position: relative;
+        z-index: 99;
+        width: 220px;
+    }
+
+    #borderContainer {
+        position: relative;
+        width: 100%;
+        min-height: calc(100% - 46px);
+    }
+
+    #container {
+        position: relative;
+        margin: 0 auto;
+        width: 100%;
+        background: #FFFFFF;
+        min-height: calc(100% - 46px);
+    }
+
+    #topSpace {
+        height: 0px;
+    }
+
+    #leftBorder {
+        display: none;
+    }
+
+    #rightBorder {
+        display: none;
+    }
+
+    #date {
+        position: absolute;
+        left: 245px;
+        top: 17px;
+    }
+
+    #dateText
+    {
+        display: none;
+    }
+
+    #content {
+        position: relative;
+        background: #FFFFFF;
+        padding-bottom: 28px;
+        padding-left: 20px;
+        padding-right: 20px;
+        min-height: calc(100% - 28px);
+    }
+
+    .image
+    {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 500px;
+        border: 3px solid #5c755e; 
+        margin-bottom: 10px;
+    }
+
+    #callOuts {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .space {
+        display: table-cell;
+    }
+
+    .callout {
+        width: 100%;
+        background: #9C9F84;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .callout a {
+        margin: 0 auto;
+    }
+
+    #footer {
+        position: absolute;
+        height: 28px;
+        width: 100%;
+        bottom: 0;
+        background: #9C9F84;
+    }
+
+    #copyright {
+        float: left;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+
+    #copyright span {
+        font-size: 12px;
+        color: #FFFFFF;
+    }
+
+    #login {
+        float: right;
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+
+    #login a {
+        font-size: 12px;
+        color: #FFFFFF;
+    }
+
+    #login a:hover {
+        color: #F7DCB4;
+    }
+}
+
+@media screen and (max-width: 914px) {
+
+    #topSpace {
+        height: auto;
+        min-height: 76px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #date {
+        position: relative;
+        padding-left: 0px;
+        padding-top: 67px;
+        left: 0px;
+        top: 0px;
+    }
+
+    #date img {
+        display: none;
+    }
+
+    #dateText
+    {
+        display: block;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    #dateTextDate
+    {
+        font-size: 20px;
+        color: #A97D5D;
+    }
+
+    #dateTextPlace
+    {
+        font-size: 11px;
+        color: #A97D5D;
+    }
+}
+
+#containerCheckIn {
+    margin: 0 auto;
+    width: 100%;
+    background: #FFFFFF;
+    min-height: calc(100%);
+    padding-left: 20px;
+    padding-right: 20px;
+}
