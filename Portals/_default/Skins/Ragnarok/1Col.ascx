@@ -12,9 +12,9 @@
 <dnn:DnnJsInclude runat="server" FilePath="js/bootstrap.min.js" PathNameAlias="SkinPath" />
 <dnn:DnnJsInclude runat="server" FilePath="js/rag.js" PathNameAlias="SkinPath" />
 <dnn:DnnJsInclude runat="server" FilePath="js/tabs.js" PathNameAlias="SkinPath" />
-<dnn:DnnCssInclude runat="server" FilePath="css/bootstrap.css" PathNameAlias="SkinPath" />
-<dnn:DnnCssInclude runat="server" FilePath="css/bootstrapStyle.css" PathNameAlias="SkinPath" />
-<dnn:DnnCssInclude runat="server" FilePath="css/bootstrapRag.css" PathNameAlias="SkinPath" />
+<dnn:DnnCssInclude runat="server" FilePath="css/bootstrap.css" PathNameAlias="SkinPath" Priority="15" />
+<dnn:DnnCssInclude runat="server" FilePath="css/bootstrapStyle.css" PathNameAlias="SkinPath" Priority="20" />
+<dnn:DnnCssInclude runat="server" FilePath="css/bootstrapRag.css" PathNameAlias="SkinPath" Priority="20" />
 
 <div id="header">
     <div id="headerContainer">
@@ -34,9 +34,9 @@
 		</div>
         <div id="topSpace">
             <div id="date">
-                <img src="/Portals/_default/Skins/Ragnarok/images/date.png" alt="June 17-25, 2017 - Cooper's Lake Campground, Slippery Rock, PA" />
+                <img src="/Portals/_default/Skins/Ragnarok/images/date.png" alt="June 15-23, 2019 - Cooper's Lake Campground, Slippery Rock, PA" />
                 <div id="dateText">
-                    <span id="dateTextDate">June 17-25, 2017</span><br />
+                    <span id="dateTextDate">June 15-23, 2019</span><br />
                     <span id="dateTextPlace">Cooper's Lake Campground, Slippery Rock, PA</span>
                 </div>
             </div>

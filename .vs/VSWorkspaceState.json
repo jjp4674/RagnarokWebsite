@@ -2,16 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\admin",
-    "\\admin\\Skins",
+    "\\admin\\ControlPanel",
     "\\Portals",
     "\\Portals\\_default",
     "\\Portals\\_default\\Skins",
     "\\Portals\\_default\\Skins\\Ragnarok",
     "\\Portals\\_default\\Skins\\Ragnarok\\css",
     "\\Portals\\_default\\Skins\\Ragnarok\\images",
-    "\\Portals\\_default\\Skins\\Ragnarok\\images\\callouts",
-    "\\Portals\\_default\\Skins\\Ragnarok\\Ragnarok"
+    "\\Portals\\_default\\Skins\\Ragnarok\\images\\callouts"
   ],
-  "SelectedNode": "\\Portals\\_default\\Skins\\Ragnarok\\css\\bootstrapRag.css",
+  "SelectedNode": "\\Portals\\_default\\Skins\\Ragnarok\\1Col.ascx",
   "PreviewInSolutionExplorer": false
 }
