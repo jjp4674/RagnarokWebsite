@@ -1,5 +1,0 @@
-C:\inetpub\wwwroot\dnndev.me\bin\RagnarokSchedule.dll
-C:\inetpub\wwwroot\dnndev.me\bin\RagnarokSchedule.pdb
-C:\inetpub\wwwroot\dnndev.me\DesktopModules\RagnarokSchedule\obj\Release\RagnarokSchedule.csprojResolveAssemblyReference.cache
-C:\inetpub\wwwroot\dnndev.me\DesktopModules\RagnarokSchedule\obj\Release\RagnarokSchedule.dll
-C:\inetpub\wwwroot\dnndev.me\DesktopModules\RagnarokSchedule\obj\Release\RagnarokSchedule.pdb
